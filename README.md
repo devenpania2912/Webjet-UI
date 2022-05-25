@@ -1,2 +1,2 @@
 # Webjet UI
- This repo copies the Webjet UI to make it look like the actual one
+ Project made in React - Frontend/UI ONLY using mock data. This project is only for displaying responsive UI (No functionality)
