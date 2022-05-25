@@ -1,3 +1,12 @@
+Project made using React. 
+
+Assumptions made: Menu is not functional (on mobile view)
+
+To run project: 
+
+1. Make sure to install all the dependencies 
+2. npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
