@@ -6,14 +6,13 @@ import Banner from './Banner';
 
 const LandingPage = () => {
     
-    const logo = require('./webjet_logo.png') ;
-    //use state for star rating and when it changes, the array also changes - similar for name 
-
-    console.log(hotelData);
+    const logo = require('../assets/webjet_logo.png') ;
+    const menu = require('../assets/menu-ss.png');
 
     return(
         <div className='page'>
             <div className='outer-wrapper width-100'>
+                <img className='menu' src={menu} alt='burgerIcon' />
                 <img src={logo} className='logo' alt='webjet logo'/>
 
                 <div className='inner-wrapper flex'>

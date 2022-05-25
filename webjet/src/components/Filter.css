@@ -1,9 +1,13 @@
+.stars{
+    color: #feb42b;
+    font-size: 15px;
+}
 
 .filter{
     font-size: 12px;
     color: grey;
     background-color: #f3f3f3;
-    width: 180px;
+    width: 100%;
 }
 
 .heading{

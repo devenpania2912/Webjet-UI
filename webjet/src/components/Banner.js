@@ -2,7 +2,7 @@ import './Banner.css'
 
 const Banner = () =>{
 
-    const banner = require('./banner.png');
+    const banner = require('../assets/banner.png');
 
     return(
         <div className='banner-container'>

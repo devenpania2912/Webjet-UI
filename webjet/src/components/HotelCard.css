@@ -18,6 +18,10 @@
     width: 100%;
 }
 
+.hotel-stars{
+    color: #feb42b;
+}
+
 .hotel-room{
     font-size: 10px;
 }
@@ -39,10 +43,6 @@
     width: 100%;
 }
 
-.price{
-    justify-content: flex-end;
-}
-
 .flex{
     display: flex;
 }
@@ -54,4 +54,44 @@
 .tb-padding{
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+   .card{
+       flex-direction: column;
+   }
+
+   .image{
+       width: 100%;
+   }
+
+   .hotel-room{
+       display: none;
+   }
+
+   .arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #f3f3f3;
+  }
+
+  .arrow-holder{
+    width: 50%;
+    height: 100%;
+    background-color: #2db300;
+    padding: 20px;
+  }
+  
+  .price{
+    align-items: center;
+    padding: 0;
+    padding-left: 80px ;
+  }
+
+  .right-padding{
+      padding-right: 10px;
+  }
+
 }

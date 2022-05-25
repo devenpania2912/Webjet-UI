@@ -1,10 +1,13 @@
 import './HotelCard.css'
 
+
 const HotelCard = (hotel) =>{
 
-    const img= require('./hotel_image1.jpg');
+    const stars=[];
 
-    console.log("Im here",hotel);
+    for(let i=0; i<hotel.hotel.stars; i++){
+        stars.push(<div>&#9830;</div>);
+    }
 
     return(
         <div className="card flex">
@@ -14,11 +17,15 @@ const HotelCard = (hotel) =>{
             <div className='hotel-info flex'>
                 <div className='info flex'>
                     <div className='hotel-name bold tb-padding'>{hotel.hotel.name}</div>
-                    <div className='hotel-stars tb-padding'>{hotel.hotel.stars}</div>
+                    <div className='hotel-stars tb-padding flex'>{stars}</div>
                     <div className='hotel-room tb-padding'><div className='bold'>Room type:</div>{hotel.hotel.room}</div>
                 
                 </div>
-                <div className='price flex bold'>${hotel.hotel.price}</div>
+                <div className='price flex bold'>
+                    <div className='right-padding'>${hotel.hotel.price}</div>
+                    <div className='arrow-holder'><div className='arrow-right'></div></div>
+                    
+                </div>
             </div>
 
         </div>

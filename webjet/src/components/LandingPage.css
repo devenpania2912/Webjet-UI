@@ -3,7 +3,7 @@
 }
 
 .outer-wrapper{
-    background-color: red;
+    background-color: #dc140a;
 }
 
 .inner-wrapper{
@@ -17,13 +17,13 @@
 .logo{
     margin-left: 20px;
     padding-top: 5px;
-    width: 200px;
+    width: 180px;
     height: auto;
 }
 
 .heading-text{
     font-size: 24px;
-    color: red;
+    color: #dc140a;
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -49,8 +49,27 @@
     width: 100%;
 }
 
+.menu{
+    display: none;
+}
+
 @media only screen and (max-width: 992px) {
     .tablet-off{
         display: none !important;
     }
+}
+
+@media only screen and (max-width: 768px) {
+   .logo{
+       width: 20%;
+       margin-left: 17%;
+   }
+
+   .menu{
+       display: inline;
+       color: white;
+       margin-left: 20px;
+       width: 20%;
+       padding-bottom: 5px;
+   }
 }

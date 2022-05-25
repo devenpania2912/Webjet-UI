@@ -15,7 +15,20 @@ const Filter = () =>{
                     
 
             </div>
-            <div className='quality-filter bold'>Quality Rating</div>
+            <div className='quality-filter bold'>
+                Quality Rating<br/><br/>
+                <input className='check' type='checkbox' checked='true'/>All<br/><br/>
+                <div className='stars'>
+                    <input type='checkbox'/>    &#9830; &#9830; &#9830; &#9830; &#9830; <br/><br/>
+                    <input type='checkbox'/>    &#9830; &#9830; &#9830; &#9830;<br/><br/>
+                    <input type='checkbox'/>    &#9830; &#9830; &#9830;<br/><br/>
+                    <input type='checkbox'/>    &#9830; &#9830;<br/><br/>
+                    <input type='checkbox'/>    &#9830;<br/><br/>
+                </div>
+                <input type='checkbox'/>unrated
+               
+            
+            </div>
         </div>
     )
 }
