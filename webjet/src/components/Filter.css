@@ -1,0 +1,46 @@
+
+.filter{
+    font-size: 12px;
+    color: grey;
+    background-color: #f3f3f3;
+    width: 180px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    color: rgb(67, 67, 67);
+}
+
+.name-filter{
+    border-bottom: 1px solid grey;
+    padding: 15px;
+}
+
+.quality-filter{
+    padding: 15px
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.submit{
+    float: right;
+    padding: 10px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.div{
+    overflow: hidden;
+}
+
+.hotel-name{
+    padding-bottom: 10px;
+}

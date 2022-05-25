@@ -1,0 +1,9 @@
+.banner{
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+
+.banner-container{
+    max-width: 200px;
+}

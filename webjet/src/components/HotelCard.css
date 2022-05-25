@@ -1,0 +1,57 @@
+.image{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid #f3f3f3;
+    box-shadow: 1px 1px #bbbbbb;
+}
+
+.hotel-info{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hotel-room{
+    font-size: 10px;
+}
+
+.price{
+    background-color: #f3f3f3;
+    padding: 20px;
+    padding-left: 80px ;
+    align-self: flex-end;
+    height: 100%;
+    font-size: 24px;
+}
+
+.info{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.price{
+    justify-content: flex-end;
+}
+
+.flex{
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.tb-padding{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

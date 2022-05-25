@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+.outer-wrapper{
+    background-color: red;
+}
+
+.inner-wrapper{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.logo{
+    margin-left: 20px;
+    padding-top: 5px;
+    width: 200px;
+    height: auto;
+}
+
+.heading-text{
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hotel{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+}
+
+.width-100{
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .tablet-off{
+        display: none !important;
+    }
+}
